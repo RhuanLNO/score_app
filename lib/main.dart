@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Score App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -28,7 +29,15 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF4C8527)),
+        scaffoldBackgroundColor: const Color(0xFFfcecc4),
+        textTheme: const TextTheme(
+            bodyLarge: TextStyle(color: Color(0xFFffffff)),
+            bodyMedium: TextStyle(color: Color(0xFFffffff)),
+            bodySmall: TextStyle(color: Color(0xFFffffff))),
+        appBarTheme: const AppBarTheme(
+          foregroundColor: Colors.white,
+        ),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
@@ -76,15 +85,18 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+    double width = MediaQuery.of(context).size.width;
+
     return Scaffold(
       appBar: AppBar(
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: const Color(0xFF4C8527),
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: const Text('Score App'),
+        centerTitle: true,
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -103,23 +115,156 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(top: 25),
+              child: Card(
+                color: const Color(0xFF4C8527),
+                child: SizedBox(
+                  width: width * 0.85,
+                  height: width * 0.3,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/120.png',
+                          width: 90,
+                          height: 90),
+                      const Padding(
+                        padding: EdgeInsets.only(top: 30),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text('3   X   4', style: TextStyle(fontSize: 40)),
+                            Text('Estádio Nilton Santos'),
+                            Text('01/11/23')
+                          ],
+                        ),
+                      ),
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/121.png',
+                          width: 90,
+                          height: 90),
+                    ],
+                  ),
+                ),
+              ),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+            Padding(
+              padding: const EdgeInsets.only(top: 25),
+              child: Card(
+                color: const Color(0xFF4C8527),
+                child: SizedBox(
+                  width: width * 0.65,
+                  height: width * 0.15,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/120.png',
+                          width: 60,
+                          height: 60),
+                      const Text('X'),
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/121.png',
+                          width: 60,
+                          height: 60),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text('03/12/23'), Text('Allianz Parque')],
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 25),
+              child: Card(
+                color: const Color(0xFF4C8527),
+                child: SizedBox(
+                  width: width * 0.65,
+                  height: width * 0.15,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/120.png',
+                          width: 60,
+                          height: 60),
+                      const Text('X'),
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/121.png',
+                          width: 60,
+                          height: 60),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text('03/12/23'), Text('Allianz Parque')],
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 25),
+              child: Card(
+                color: const Color(0xFF4C8527),
+                child: SizedBox(
+                  width: width * 0.65,
+                  height: width * 0.15,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/120.png',
+                          width: 60,
+                          height: 60),
+                      const Text('X'),
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/121.png',
+                          width: 60,
+                          height: 60),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text('03/12/23'), Text('Allianz Parque')],
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 25),
+              child: Card(
+                color: const Color(0xFF4C8527),
+                child: SizedBox(
+                  width: width * 0.65,
+                  height: width * 0.15,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/120.png',
+                          width: 60,
+                          height: 60),
+                      const Text('X'),
+                      Image.network(
+                          'https://media-4.api-sports.io/football/teams/121.png',
+                          width: 60,
+                          height: 60),
+                      const Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text('03/12/23'), Text('Allianz Parque')],
+                      )
+                    ],
+                  ),
+                ),
+              ),
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

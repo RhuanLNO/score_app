@@ -1,0 +1,182 @@
+[
+  {
+      "id": 118,
+      "name": "Bahia",
+      "code": "BAH",
+      "country": "Brazil",
+      "founded": 1931,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/118.png"
+  },
+  {
+      "id": 119,
+      "name": "Internacional",
+      "code": "INT",
+      "country": "Brazil",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/119.png"
+  },
+  {
+      "id": 120,
+      "name": "Botafogo",
+      "code": "BOT",
+      "country": "Brazil",
+      "founded": 1904,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/120.png"
+  },
+  {
+      "id": 121,
+      "name": "Palmeiras",
+      "code": "PAL",
+      "country": "Brazil",
+      "founded": 1914,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/121.png"
+  },
+  {
+      "id": 124,
+      "name": "Fluminense",
+      "code": "FLU",
+      "country": "Brazil",
+      "founded": 1902,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/124.png"
+  },
+  {
+      "id": 125,
+      "name": "America Mineiro",
+      "code": "AME",
+      "country": "Brazil",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/125.png"
+  },
+  {
+      "id": 126,
+      "name": "Sao Paulo",
+      "code": "PAU",
+      "country": "Brazil",
+      "founded": 1930,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/126.png"
+  },
+  {
+      "id": 127,
+      "name": "Flamengo",
+      "code": "FLA",
+      "country": "Brazil",
+      "founded": 1895,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/127.png"
+  },
+  {
+      "id": 128,
+      "name": "Santos",
+      "code": "SAN",
+      "country": "Brazil",
+      "founded": 1912,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/128.png"
+  },
+  {
+      "id": 130,
+      "name": "Gremio",
+      "code": "GRE",
+      "country": "Brazil",
+      "founded": 1903,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/130.png"
+  },
+  {
+      "id": 131,
+      "name": "Corinthians",
+      "code": "COR",
+      "country": "Brazil",
+      "founded": 1910,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/131.png"
+  },
+  {
+      "id": 133,
+      "name": "Vasco DA Gama",
+      "code": "VAS",
+      "country": "Brazil",
+      "founded": 1898,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/133.png"
+  },
+  {
+      "id": 134,
+      "name": "Atletico Paranaense",
+      "code": "ATL",
+      "country": "Brazil",
+      "founded": 1924,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/134.png"
+  },
+  {
+      "id": 135,
+      "name": "Cruzeiro",
+      "code": "CRU",
+      "country": "Brazil",
+      "founded": 1921,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/135.png"
+  },
+  {
+      "id": 147,
+      "name": "Coritiba",
+      "code": "COR",
+      "country": "Brazil",
+      "founded": 1909,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/147.png"
+  },
+  {
+      "id": 151,
+      "name": "Goias",
+      "code": "GOI",
+      "country": "Brazil",
+      "founded": 1943,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/151.png"
+  },
+  {
+      "id": 154,
+      "name": "Fortaleza EC",
+      "code": "FOR",
+      "country": "Brazil",
+      "founded": 1918,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/154.png"
+  },
+  {
+      "id": 794,
+      "name": "RB Bragantino",
+      "code": "BRA",
+      "country": "Brazil",
+      "founded": 1928,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/794.png"
+  },
+  {
+      "id": 1062,
+      "name": "Atletico-MG",
+      "code": "ATL",
+      "country": "Brazil",
+      "founded": 1908,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/1062.png"
+  },
+  {
+      "id": 1193,
+      "name": "Cuiaba",
+      "code": "CUI",
+      "country": "Brazil",
+      "founded": 2001,
+      "national": false,
+      "logo": "https://media-4.api-sports.io/football/teams/1193.png"
+  }
+]
