@@ -7,9 +7,9 @@ class Status {
 
   factory Status.fromJson(Map<String, dynamic> json) {
     return Status(
-      long: json['long'],
-      short: json['short'],
-      elapsed: json['elapsed'],
+      long: json['long'] ?? '',
+      short: json['short'] ?? '',
+      elapsed: json['elapsed'] ?? 0,
     );
   }
 }

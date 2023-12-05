@@ -119,9 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    futureData = fetchData().then((value) {
-      /* print(value); */
-    });
+    futureData = fetchData();
   }
 
   @override
